@@ -4,8 +4,6 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.view.Menu;
-import android.view.MenuItem;
 
 import com.mayo.materialdemo.R;
 
@@ -17,6 +15,7 @@ public class ActRecyclerView extends ActionBarActivity {
     private RecyclerView.LayoutManager mLayoutManager;
 
     private String[] mNames = {"rekha","mayo"};
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
