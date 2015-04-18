@@ -16,7 +16,6 @@ public class ActRecyclerView extends ActionBarActivity {
 
     private String[] mNames = {"rekha","mayo"};
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
