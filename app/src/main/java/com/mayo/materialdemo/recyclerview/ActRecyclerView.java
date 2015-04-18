@@ -14,7 +14,7 @@ public class ActRecyclerView extends ActionBarActivity {
     private RecyclerView.Adapter mAdapter;
     private RecyclerView.LayoutManager mLayoutManager;
 
-    private String[] mNames = {"rekha","mayo"};
+    private String[] mNames = {"rekha", "mayo", "kanchana"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
