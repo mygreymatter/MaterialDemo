@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MaterialDemo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_act_card_view">ActCardView</string>
+    <string name="title_activity_act_ripple">ActRipple</string>
+    <string name="title_activity_act_bound_ripple">ActBoundRipple</string>
+    <string name="title_activity_act_state_list_animator">ActStateListAnimator</string>
+</resources>

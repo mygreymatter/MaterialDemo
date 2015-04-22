@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mayo.materialdemo" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".ActMain"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".recyclerview.ActRecyclerView"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".cardview.ActCardView"
+            android:label="@string/title_activity_act_card_view" >
+        </activity>
+        <activity
+            android:name=".ripple.ActUnboundRipple"
+            android:label="@string/title_activity_act_ripple" >
+        </activity>
+        <activity
+            android:name=".ripple.ActBoundRipple"
+            android:label="@string/title_activity_act_bound_ripple" >
+        </activity>
+        <activity
+            android:name=".statelistanimator.ActStateListAnimator"
+            android:label="@string/title_activity_act_state_list_animator" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
