@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.mayo.materialdemo.statelistanimator.ActStateListAnimator">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/circular_button_selector"
+        android:onClick="setStateselected"
+        android:text="Oridanary"
+        android:textColor="@color/button_text_selector" />
+
+    <Button
+        android:id="@+id/button_ripple"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/circular_button_ripple_selector"
+        android:onClick="setStateselected"
+        android:stateListAnimator="@drawable/button_elevation"
+        android:text="Ripple"
+        android:textColor="@color/button_text_selector" />
+
+    <Button
+        android:id="@+id/button_reveal"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/circular_button_ripple_selector"
+        android:onClick="setRevealEffect"
+        android:stateListAnimator="@drawable/button_elevation"
+        android:text="Reveal"
+        android:textColor="@color/button_text_selector" />
+
+    <Button
+        android:id="@+id/button_reveal_anywhere"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/circular_button_ripple_selector"
+        android:stateListAnimator="@drawable/button_elevation"
+        android:text="Reveal Anywhere"
+        android:textColor="@color/button_text_selector" />
+
+</LinearLayout>
