@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mayo.materialdemo" >
+<manifest package="com.mayo.materialdemo"
+          xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -27,11 +27,11 @@
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name=".ripple.ActUnboundRipple"
+            android:name=".ripple.ActCustomRipple"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name=".ripple.ActBoundRipple"
+            android:name=".ripple.ActRipple"
             android:label="@string/app_name" >
         </activity>
         <activity
@@ -55,6 +55,10 @@
         </activity>
         <activity
             android:name=".reveal.ActReveal"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".touchfeedback.ActTouch"
             android:label="@string/app_name" >
         </activity>
     </application>

@@ -3,15 +3,7 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_act_card_view">ActCardView</string>
-    <string name="title_activity_act_ripple">ActRipple</string>
-    <string name="title_activity_act_bound_ripple">ActBoundRipple</string>
-    <string name="title_activity_act_state_list_animator">ActStateListAnimator</string>
-    <string name="title_activity_act_shared_transition">ActSharedTransition</string>
-    <string name="title_activity_act_called">ActCalled</string>
-    <string name="title_activity_act_transition">ActTransition</string>
     <string name="monkey">monkey</string>
-    <string name="title_activity_act_flexible_space">ActFlexibleSpace</string>
-    <string name="shared_element_photo">shared_element</string>
-    <string name="title_activity_act_reveal">ActReveal</string>
+    <string name="shared_element_photo">shared photo</string>
+
 </resources>

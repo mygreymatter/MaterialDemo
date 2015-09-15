@@ -11,7 +11,7 @@ import com.mayo.materialdemo.R;
  *         Illustrates ripple effect which is bounded.
  *         use android:background="?android:attr/selectableItemBackground" instead of bound_ripple drawable
  */
-public class ActBoundRipple extends AppCompatActivity {
+public class ActRipple extends AppCompatActivity {
 
     private boolean isSelected;
 
