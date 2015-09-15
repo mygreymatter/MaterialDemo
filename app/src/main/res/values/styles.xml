@@ -5,4 +5,9 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="SharedTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:homeAsUpIndicator">@drawable/ic_back</item>
+    </style>
+
+
 </resources>

@@ -10,7 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.mayo.materialdemo.statelistanimator.ActStateListAnimator">
 
-    <Button
+    <!--<Button
         android:id="@+id/button"
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -29,9 +29,9 @@
         android:onClick="setStateselected"
         android:stateListAnimator="@drawable/button_elevation"
         android:text="Ripple"
-        android:textColor="@color/button_text_selector" />
+        android:textColor="@color/button_text_selector" />-->
 
-    <Button
+    <!--<Button
         android:id="@+id/button_reveal"
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -50,6 +50,6 @@
         android:background="@drawable/circular_button_ripple_selector"
         android:stateListAnimator="@drawable/button_elevation"
         android:text="Reveal Anywhere"
-        android:textColor="@color/button_text_selector" />
+        android:textColor="@color/button_text_selector" />-->
 
 </LinearLayout>

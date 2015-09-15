@@ -36,4 +36,33 @@
         android:layout_height="wrap_content"
         android:onClick="showBoundRipple"
         android:text="Bound Ripple" />
+
+    <Button
+        android:id="@+id/revealView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showReveal"
+        android:text="Reveal" />
+
+    <Button
+        android:id="@+id/transition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showTransition"
+        android:text="Transition" />
+
+    <Button
+        android:id="@+id/sharedTransition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showSharedTransition"
+        android:text="Shared Transition" />
+
+    <Button
+        android:id="@+id/flexibleSpace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showFlexibleSpace"
+        android:text="Flexible Space" />
+
 </LinearLayout>

@@ -1,11 +1,11 @@
 package com.mayo.materialdemo.cardview;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 import com.mayo.materialdemo.R;
 
-public class ActCardView extends Activity {
+public class ActCardView extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

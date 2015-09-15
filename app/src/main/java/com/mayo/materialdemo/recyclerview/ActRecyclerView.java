@@ -1,14 +1,14 @@
 package com.mayo.materialdemo.recyclerview;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
 import com.mayo.materialdemo.R;
 
 
-public class ActRecyclerView extends Activity {
+public class ActRecyclerView extends AppCompatActivity {
 
     private RecyclerView mRecyclerView;
     private RecyclerView.Adapter mAdapter;
