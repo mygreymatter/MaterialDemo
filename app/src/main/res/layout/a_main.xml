@@ -24,18 +24,18 @@
         android:text="CardView" />
 
     <Button
-        android:id="@+id/unboundRippleView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="showUnboundRipple"
-        android:text="Unbound Ripple" />
-
-    <Button
         android:id="@+id/boundRippleView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="showBoundRipple"
-        android:text="Bound Ripple" />
+        android:text="Ripple"/>
+
+    <Button
+        android:id="@+id/unboundRippleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showUnboundRipple"
+        android:text="Custom Ripple"/>
 
     <Button
         android:id="@+id/revealView"
@@ -64,5 +64,12 @@
         android:layout_height="wrap_content"
         android:onClick="showFlexibleSpace"
         android:text="Flexible Space" />
+
+    <Button
+        android:id="@+id/touchFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showTouchfeedback"
+        android:text="Touch Feedback"/>
 
 </LinearLayout>

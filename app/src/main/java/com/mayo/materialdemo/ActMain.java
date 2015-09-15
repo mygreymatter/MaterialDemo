@@ -9,9 +9,10 @@ import com.mayo.materialdemo.cardview.ActCardView;
 import com.mayo.materialdemo.flexiblespace.ActFlexibleSpace;
 import com.mayo.materialdemo.recyclerview.ActRecyclerView;
 import com.mayo.materialdemo.reveal.ActReveal;
-import com.mayo.materialdemo.ripple.ActBoundRipple;
-import com.mayo.materialdemo.ripple.ActUnboundRipple;
+import com.mayo.materialdemo.ripple.ActCustomRipple;
+import com.mayo.materialdemo.ripple.ActRipple;
 import com.mayo.materialdemo.sharedtransition.ActCalling;
+import com.mayo.materialdemo.touchfeedback.ActTouch;
 import com.mayo.materialdemo.transition.ActTransition;
 
 
@@ -32,11 +33,11 @@ public class ActMain extends AppCompatActivity {
     }
 
     public void showUnboundRipple(View v){
-        startActivity(new Intent(this, ActUnboundRipple.class));
+        startActivity(new Intent(this, ActCustomRipple.class));
     }
 
     public void showBoundRipple(View v){
-        startActivity(new Intent(this, ActBoundRipple.class));
+        startActivity(new Intent(this, ActRipple.class));
     }
 
     public void showSharedTransition(View v){
@@ -50,4 +51,8 @@ public class ActMain extends AppCompatActivity {
     public void showFlexibleSpace(View v){ startActivity(new Intent(this, ActFlexibleSpace.class));}
 
     public void showReveal(View v){startActivity(new Intent(this, ActReveal.class));}
+
+    public void showTouchfeedback(View v) {
+        startActivity(new Intent(this, ActTouch.class));
+    }
 }

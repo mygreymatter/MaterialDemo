@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
         <item name="android:colorPrimary">@android:color/holo_green_light</item>
         <item name="android:colorPrimaryDark">@android:color/holo_green_dark</item>
         <item name="android:colorAccent">@android:color/holo_purple</item>
-        <!--<item name="android:windowEnterTransition">@transition/explode</item>-->
     </style>
 
 

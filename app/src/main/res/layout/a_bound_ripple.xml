@@ -4,25 +4,7 @@
               android:layout_height="match_parent"
               android:gravity="center"
               android:orientation="vertical"
-              android:paddingBottom="@dimen/activity_vertical_margin"
-              android:paddingLeft="@dimen/activity_horizontal_margin"
-              android:paddingRight="@dimen/activity_horizontal_margin"
-              android:paddingTop="@dimen/activity_vertical_margin"
-              tools:context="com.mayo.materialdemo.ripple.ActBoundRipple">
-
-    <!--<FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="?android:attr/selectableItemBackground"
-        android:clickable="true" />
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="@drawable/frame"
-        android:clickable="true" />-->
+              tools:context="com.mayo.materialdemo.ripple.ActRipple">
 
     <Button
         android:id="@+id/button"
@@ -31,18 +13,18 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/circular_button_selector"
         android:onClick="setStateselected"
-        android:text="Oridanary"
+        android:text="Oridinary"
         android:textColor="@color/button_text_selector"/>
 
     <Button
         android:id="@+id/button_ripple"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/circular_button_ripple_selector"
         android:onClick="setStateselected"
         android:stateListAnimator="@drawable/button_elevation"
-        android:text="Ripple"
+        android:text="Ripple Drawable"
         android:textColor="@color/button_text_selector"/>
 
 
